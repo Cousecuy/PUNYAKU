@@ -101,7 +101,7 @@ exec(`cd /sdcard/download && play *mp3`)
 			mhan = await helga.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: ppimg})
 const buttonMessages = { imageMessage: mhan.message.imageMessage,
 contentText: `${masuk}`,
-footerText: `𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝑩𝒚 ٬࿊⃟𝑯𝒆𝒍𝒈𝒂𝒂 𝒁𝒆𝒙'𝒔シ︎`, 
+footerText: `𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝑩𝒚 VerHigsシ︎`, 
 buttons: gbutsan,
 headerType: 4 }
 			helga.sendMessage(mdata.id, buttonMessages, MessageType.buttonsMessage, {thumbnail: fs.readFileSync('./helga.jpg'), "contextInfo": { mentionedJid: [num]}, caption: 'Tes', quoted: fkontakk})
@@ -121,7 +121,7 @@ headerType: 4 }
 			mhan = await helga.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: ppimg})
 const buttonMessages = { imageMessage: mhan.message.imageMessage,
 contentText: `${keluar}`,
-footerText: `𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝑩𝒚 ٬࿊⃟𝑯𝒆𝒍𝒈𝒂𝒂 𝒁𝒆𝒙'𝒔シ︎`,
+footerText: `𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝑩𝒚 VerHigsシ︎`,
 buttons: gbutsan,
 headerType: 4 }
 			helga.sendMessage(mdata.id, buttonMessages, MessageType.buttonsMessage, { thumbnail: fs.readFileSync('./helga.jpg'), "contextInfo": { mentionedJid: [num]}, caption: 'Tes', quoted: fkontakk})
@@ -183,7 +183,7 @@ helga.on('CB:action,,call', async json => {
         const callerId = json[2][0][1].from;
         var vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + `${NamaOwner}` + '\n' + `ORG:Developer ${NamaBot}\n` + 'TEL;type=CELL;type=VOICE;waid=' + `${NomorOwner}` + ':+' + `${NomorOwner}` + '\n' + 'END:VCARD'
         helga.sendMessage(callerId, "\`\`\`[ ! ] CALL DETECTED [ ! ]\`\`\`\n\n\`\`\`Anda Di Block Karena Telepon Bot , Silahkan Hubungi Developer Bot Untuk Membuka Block\`\`\`", MessageType.text)
-        helga.sendMessage(callerId, { displayname: `${NamaOwner}`, vcard: vcard}, MessageType.contact, {contextInfo: { externalAdReply:{title: `Developer ${NamaBot}`,body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./helga.jpg'),sourceUrl:`https://wa.me/6282138919347?text=Assalamualaikum`}}})
+        helga.sendMessage(callerId, { displayname: `${NamaOwner}`, vcard: vcard}, MessageType.contact, {contextInfo: { externalAdReply:{title: `Developer ${NamaBot}`,body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./helga.jpg'),sourceUrl:`https://wa.me/79910341948?text=Assalamualaikum`}}})
         await sleep(5000)
         await helga.blockUser(callerId, "add")
         })
