@@ -479,7 +479,7 @@ pp = (`📍 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗣𝗹𝗮𝘆𝗲𝗿
             res = helga.prepareMessageFromContent(from, {
                 "orderMessage": {
                     "message": teks,
-                    "footerText": "*_© By: helga_*",
+                    "footerText": "*_© By: VerHigs_*",
                     "thumbnail": ofrply,
                     "surface": 'CATALOG'
                 }
@@ -524,7 +524,7 @@ pp = (`📍 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗣𝗹𝗮𝘆𝗲𝗿
                     "groupJid": '6285709331584-1616169743@g.us',
                     "inviteCode": 'https://chat.whatsapp.com/Kw69Oel34Nd0JuluvFNVKt',
                     "groupName": `${NamaBot}`,
-                    "footerText": "*_© By: helga_*",
+                    "footerText": "*_© By: VerHigs_*",
                     "jpegThumbnail": ofrply,
                     "caption": teks
                 }
@@ -742,8 +742,8 @@ const ftrol = {
                             itemCount : 123,
                             status: 1,
                             surface : 1,
-                            message: `Subscribe YouTube Channel\nHelga Zex's!`, //Kasih namalu
-                            orderTitle: `Subscribe YouTube Channel\nHelga Zex's!`,
+                            message: `SUPPORT TERUS VERMEIL`, //Kasih namalu
+                            orderTitle: `SUPPORT TERUS VERMEIL`,
                             thumbnail: dfrply, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -912,7 +912,7 @@ const fvoc = {
                             itemCount : 2021,
                             status: 1,
                             surface : 1,
-                            message: `Helga Ilham`, //Kasih namalu
+                            message: `Vermeil`, //Kasih namalu
                             thumbnail: fs.readFileSync('./helga.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -1973,8 +1973,6 @@ _⫹⫺📯Author : Helga Zex's_
 _⫹⫺💬Time : ${timeWib} WIB_
 
 
-   「 Free Rest Api's 」
-⫹⫺🎉https://api-helgazex.herokuapp.com
 
 
 
@@ -2358,7 +2356,7 @@ _⫹⫺💬Time : ${timeWib} WIB_
 │ • ${prefix}attp
 ╰────
 `
-sendButDocument(from, `${menu}`, "*Powered By* helgastoree.xyz", fs.readFileSync('./helga.jpg'), {mimetype:Mimetype.pdf, thumbnail:ofrply, filename:`𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7`}, [{buttonId:`about`,buttonText:{displayText:'About 🐋'},type:1},{buttonId:`simple`,buttonText:{displayText:'Simple Menu 🐋'},type:1},{buttonId:`catalog`,buttonText:{displayText:'Katalog Menu 🐋'},type:1}], {quoted:fmen, contextInfo: { mentionedJid: [dtod,otod,stod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`𝚉𝚞𝚔𝚊𝙱𝚘𝚝𝚝 𝙼𝚊𝚍𝚎 𝙱𝚢 𝙷𝚎𝚕𝚐𝚊`,body:`𝙼𝚊𝚍𝚎 𝙱𝚢 𝙷𝚎𝚕𝚐𝚊`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/bF7K7KL7dVY`}}})
+sendButDocument(from, `${menu}`, "*Powered By* VeKs", fs.readFileSync('./helga.jpg'), {mimetype:Mimetype.pdf, thumbnail:ofrply, filename:`𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7`}, [{buttonId:`about`,buttonText:{displayText:'About 🐋'},type:1},{buttonId:`simple`,buttonText:{displayText:'Simple Menu 🐋'},type:1},{buttonId:`catalog`,buttonText:{displayText:'Katalog Menu 🐋'},type:1}], {quoted:fmen, contextInfo: { mentionedJid: [dtod,otod,stod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`𝚉𝚞𝚔𝚊𝙱𝚘𝚝𝚝 𝙼𝚊𝚍𝚎 𝙱𝚢 𝙷𝚎𝚕𝚐𝚊`,body:`𝙼𝚊𝚍𝚎 𝙱𝚢 𝙷𝚎𝚕𝚐𝚊`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/bF7K7KL7dVY`}}})
 break
 case 'catalog':
   
@@ -2369,7 +2367,7 @@ case 'catalog':
 			 stst = await helga.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
 menu = `
-Halo Saya Zuka Bot
+Halo Saya Vermeil Bot
 `
 if(menuall == false){
 anu = helga.prepareMessageFromContent(from,{
@@ -2389,7 +2387,7 @@ anu = helga.prepareMessageFromContent(from,{
                             "productId": "1625826",
                             "currencyCode": "IDR",
                             "priceAmount1000": "200000000",
-							"title": `Zuka Beta`, 
+							"title": `Vermeil Beta`, 
 							"description": `${menu}`,
 							"productImageCount": 1
 						},
@@ -2411,7 +2409,7 @@ wat = await helga.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnBngsat = {
 imageMessage: wat.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `Zuka Beta`,
+footerText: `Vermeil Beta`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -2421,8 +2419,8 @@ break
 case 'simple':
  stod = `${sender}`
  listMsg = {
- buttonText: 'Simple Menu Zuka',
- footerText: '*ZukaBase*',
+ buttonText: 'Simple Menu Vermeil',
+ footerText: '*Vermeil*',
  description: `Hai Kak @${stod.split('@')[0]}\nGunakan Bot Dengan Bijak Yaa..\n\n️💬 ${tampilUcapan}\n⏰ Jam : ${jmn}\n🌄 Hari : ${week} ${weton}\n🗓️ Tanggal : ${calender}\n`,
  sections: [
                      {
@@ -2535,19 +2533,13 @@ case 'groupbot':
 
 My Official Group⛱️
 
-🧶 https://chat.whatsapp.com/Kw69Oel34Nd0JuluvFNVKt
-🧶 https://chat.whatsapp.com/IlpQRKWDZed0GgVHmYJUbl
-🧶 https://chat.whatsapp.com/DYdn8o7Wrho0K8R78IqTbB
-🧶 https://chat.whatsapp.com/FNUkk0gLdc2Ik4fZr2HdHc
 
-Zuka Group Script Base⛱️
+Vermeil Group Script Base⛱️
 
-🧶 https://chat.whatsapp.com/G0CKmdYhIt5DJmhXr2RsN5
-🧶 https://chat.whatsapp.com/IQEOA0qbEY6IXyDrA7C7lO
 
 `
 but = [{ buttonId: `${prefix}allmenu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, 'Powered By helgastoree.xyz', but)
+sendButMessage(from, menu, 'Powered By ViKs', but)
 break
 case 'maker':
         
@@ -2570,7 +2562,7 @@ _⫹⫺${prefix}matrix [ Text ]_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'nsfww':
         
@@ -2594,7 +2586,7 @@ _⫹⫺${prefix}cosplay_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'groupp':
         
@@ -2625,7 +2617,7 @@ _⫹⫺${prefix}leave_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'tools':
         
@@ -2644,7 +2636,7 @@ _⫹⫺${prefix}attp_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'randomm':
         
@@ -2681,7 +2673,7 @@ _⫹⫺${prefix}ppcouple
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'download':
         
@@ -2701,7 +2693,7 @@ _⫹⫺${prefix}ytsearch_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'asupan':
         
@@ -2727,7 +2719,7 @@ _⫹⫺${prefix}jepang_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'textprome':
         
@@ -2756,7 +2748,7 @@ _⫹⫺${prefix}Skeleton teks_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'ephoto':
         
@@ -2800,7 +2792,7 @@ _⫹⫺${prefix}freefire text_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'store':
         
@@ -2819,7 +2811,7 @@ _⫹⫺${prefix}jasrun_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'funny':
         
@@ -2858,7 +2850,7 @@ _⫹⫺${prefix}cekcantik_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'soundd':
         
@@ -2946,7 +2938,7 @@ _⫹⫺${prefix}sound75_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
 case 'dosaa':
         
@@ -2984,7 +2976,7 @@ _⫹⫺${prefix}dosa24_
 
 `
 but = [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'List Menu' }, type: 1 }]
-sendButMessage(from, menu, '𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', but)
+sendButMessage(from, menu, 'Vermeil 𝚅6.2.7', but)
 break
                 case 'game':
                 ptod = "6281398860278@s.whatsapp.net"
@@ -3078,7 +3070,7 @@ OTHER-INFO
 女 Hobby : Programer
 女 Website : helgastoree.xyz
 `
-sendButImage(from, menu, `*_Powered By helgastoree.xyz_*`, buffer1, [                      
+sendButImage(from, menu, `*_Powered By ViKs*`, buffer1, [                      
 {
 buttonId: `${prefix}allmenu`,
 buttonText: {
@@ -3475,7 +3467,7 @@ case 'cecan':
             case 'jepang':
 buffer = await getBuffer(`https://api.zacros.my.id/asupan/${command}`)
 Teks = `Klik Next Untuk Ke ${command} Selanjutnya`
-sendButImage(from, Teks, `*_Powered By helgastoree.xyz_*`, buffer, [                      
+sendButImage(from, Teks, `*_Powered By ViKs*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -3805,7 +3797,7 @@ case 'loli':
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = ( await helga.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: fs.readFileSync('./helga.jpg')})).message.imageMessage
-              buttonsMessage = {footerText:'𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Vermeil 𝚅6.2.7', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await helga.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               helga.relayWAMessage(prep)
@@ -3965,7 +3957,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*©Helga Zex*',
+    footerText: '*©Vermeil*',
     buttons: buttons,
     headerType: 1
 }
@@ -4020,7 +4012,7 @@ for (let i of ownerNumber) {
 const vname = helga.contacts[i] != undefined ? helga.contacts[i].vname || helga.contacts[i].notify : undefined
 ini_list.push({
 "displayName": `Author ${NamaBot}`,
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;𝐇𝐞𝐥𝐠𝐚 𝐙𝐞𝐱!;;;\nFN:${vname ? `${vname}` : `${helga.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;ViKs!;;;\nFN:${vname ? `${vname}` : `${helga.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 helga.sendMessage(from, {
@@ -4919,7 +4911,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `sewa`, buttonText: {displayText: 'SEWA BOT'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅6.2.7*',
+    footerText: '*Vermeil 𝚅6.2.7*',
     buttons: buttons,
     headerType: 1
 }
@@ -5091,9 +5083,9 @@ case 'sewa':
 				runtime = process.uptime()
 				
 				memek =`┏━━⬣ 𝐏𝐫𝐢𝐜𝐞 𝐋𝐢𝐬𝐭 𝐎𝐧𝐞✨
-┃💌 : SEWA 5K/MINGGU
-┃💌 : SEWA 10K/BLN
-┃💌 : SEWA PERMANEN 25K
+┃💌 : SEWA 3K/MINGGU
+┃💌 : SEWA 5K/BLN
+┃💌 : SEWA PERMANEN 8K
 ┗━━⬣
 
 ┏━━⬣ 𝐏𝐫𝐢𝐜𝐞 𝐋𝐢𝐬𝐭 𝐓𝐰𝐨🎋
@@ -5105,10 +5097,10 @@ case 'sewa':
 ┏━━⬣ 𝐌𝐢𝐧𝐚𝐭?𝐂𝐡𝐚𝐭♨️
 ┃💌 : *SERING² DONASI✨*
 ┃💌 : ==============
-┃💌 : wa.me/6281398860278
+┃💌 : wa.me/79910341948
 ┃💌 : ==============
-┃💌 : Instagram : _*@helga_store20*_
-┃💌 : YouTube : _*Helga Zex's*_
+┃💌 : Instagram : _*@ViKs23*_
+┃💌 : YouTube : _*-*_
 ┗━━⬣`
 				sendButLocation(from, `${memek}`, `Subscribe Channel\nHelga Zex!!`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'Done 🌌'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 				break
@@ -5130,7 +5122,7 @@ Jika Tidak Melanggar TOS!
 Note : Free Peng Install An Google Chrome
 
 Minat?Chat
-https://wa.me/6281398860278`
+https://wa.me/79910341948`
 				sendButLocation(from, `${memek}`, `Subscribe Channel\nHelga Zex!!`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'Done 🌌'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 				break
 case 'jasrun':
@@ -5139,9 +5131,9 @@ case 'kebutuhanbot':
               
 				runtime = process.uptime()
 				
-				memek =`https://chat.whatsapp.com/KnylQRBnBcMFtVVmMh2Nxx
+				memek =`wa.me/79910341948
 
-˖ ݁ ˓ *Masuk Kak*
+˖ ݁ ˓ *Chat Kak*
 ˖ ݁ ˓ *Open Jasa Run Bot Wa*
 - Di Run Menggunakan 
 
